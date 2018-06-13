@@ -416,8 +416,13 @@ public class CustomClimb implements PostInitializeSubscriber {
 						me, (button) -> {doSelect(1);});
 				me.addUIElement(silent);
 				
+				ModButton defect = new ModButton(CHAR_SELECT_X_START + CHAR_SELECT_X_DELTA * 2, CHAR_SELECT_Y,
+						makeTexture("images/ui/charSelect/defectButton.png", 0.5f),
+						me, (button) -> {doSelect(2);});
+				me.addUIElement(defect);
+				
 				// custom characters
-				int index = 2; // 0 for ironclad, 1 for silent, 2+ for custom chars
+				int index = 3; // 0 for ironclad, 1 for silent, 2 for defect, 3+ for custom chars
 				keys = BaseMod.playerClassMap.keySet().toArray();
 				for (Object playerKey : keys) {
 					ModButton customCharacterButton = makeCharacterButton(index, playerKey, me);
