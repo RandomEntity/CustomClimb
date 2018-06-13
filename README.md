@@ -1,6 +1,8 @@
 # Custom Climb #
 Custom Climb lets you do challenge runs how **you** want to do them not how the randomized daily runs do. When playing in Custom Climb mode you get to **choose** which positive and negative modifiers are going to effect your run and which character you want to play as.
 
+**This is my own personal updated version to include the recently released Defect character; I make no promises that it will work correctly.**
+
 ![Title Screen](github_resources/custom_climb_main_menu.png)
 
 To open the *Custom Climb Menu* click on the icon with the brown staircase. This will open the modifier select screen.
@@ -23,7 +25,7 @@ Once in game the custom climb will act like a daily climb. All of the mods are a
 4. Create a `mods` folder in your **Slay The Spire** directory so it looks like `C:\Program Files (x86)\Steam\steamapps\common\SlayTheSpire\mods`
 5. Download `BaseMod.jar` from the latest release (https://github.com/daviscook477/BaseMod/releases)
 6. Move `BaseMod.jar` into the `mods` folder you created in step 4
-7. Download `CustomClimb.jar` from the latest release (https://github.com/daviscook477/CustomClimb/releases)
+7. Download `CustomClimb.jar` from the latest release (https://github.com/RandomEntity/CustomClimb/releases)
 8. Move `CustomClimb.jar` into the `mods` folder you created in step 4
 9. Your modded version of **Slay The Spire** can now be launched by double-clicking on `ModTheSpire.jar`
 10. This will open a mod select menu where you need to make sure that both `BaseMod` and `CustomClimb` are checked before clicking **play**
